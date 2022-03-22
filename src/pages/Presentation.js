@@ -3,6 +3,8 @@ import Layout from "../components/Layout";
 import iut from "../img/iut.png";
 import CompoImg from "../components/CompoImg";
 import Button from "../components/Button";
+import Storage from "../components/Storage";
+
 class Presentation extends Component {
   render() {
     return (
@@ -13,7 +15,7 @@ class Presentation extends Component {
               <div className="p-20">
                 <CompoImg />
                 <div className="flex justify-center p-10">
-                <Button/>
+                <Storage/>
                 </div>
               </div>
             </div>
